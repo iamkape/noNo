@@ -1,0 +1,157 @@
+@font-face {
+	font-family: Electronica-Normal;
+  	src: url(../../fonts/17372.otf);
+}
+
+html {
+  overflow-y: scroll;
+}
+*{
+	margin:0;
+}
+header{
+	height:300px;
+	background-image : url("https://cdn.pixabay.com/photo/2019/06/11/23/40/palm-trees-4268028_960_720.png");
+}
+.wrap{
+	width: 82%;
+	margin: 0 auto;
+}
+.topLine{
+	background-color: rgba(160,160,160,0.2);
+	height: 75px;
+
+}
+.name{
+	font-family: Electronica-Normal;
+	font-size:60px;
+	float:right;
+	color:#ffff;
+	word-spacing: 4px;
+}
+.tittle{
+	color:#ffff;
+	word-spacing: 30px;
+	background: linear-gradient(50deg,#ff832d ,#FFFFFF);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+#slider{
+	height: 183px;
+	width:273px;
+	overflow: hidden;
+	margin: 90px auto;
+	
+	
+}
+#scroll img{
+	float:right;
+}
+#scroll{
+	width: 1375px;
+	background-color: yellow;
+	position: relative;
+	transition: all ease 2s;
+	left:0;
+
+
+}
+
+#scroll::after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.about{
+	height: 210px;
+	width: 25%;
+	float: left;
+	margin:60px 60px;
+	overflow: hidden;
+	
+	
+
+}
+#infoAboutArtist{
+	font-size: 30px;
+ 
+
+}
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+.infoAboutArtist {
+  height: 155px;
+  width: 550px;
+  overflow: hidden;
+  order: 0;
+  padding:30px 30px ;
+
+
+
+}
+p{
+	font-size: 23px;
+	word-spacing: 4px;
+	word-wrap: break-word;
+    background-color:rgba(128, 128, 128, 0.5);
+    padding: 5px 5px;
+
+}
+#button {
+  order: 1;
+}
+input[type="checkbox"] {
+ display: none;
+}
+input[type="checkbox"]:checked +.infoAboutArtist {
+  height: auto;
+
+	
+}
+label {
+  order: 1;
+  color: blue;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-size: 22px;
+  color:#ff832d;
+  left:350px;
+  position: relative;
+
+}
+article{
+		background-color:rgba(128, 128, 128, 0.7);
+		height: 590px;
+		width: auto;
+		background-image:url(https://www.xlr8r.com/.image/t_share/MTU5NzM4Mzg1MDE4MTM1ODI1/anthony-rother-photo-by-lucas-aob-dsc_7544.jpg);
+		background-size: cover;
+}
+#dp{
+	position: absolute;
+	width:92px;
+	height: 108px;
+	left:50%;
+	top:782px;
+}
+#map{
+ 	height: 0px;
+    width: 500px;
+    float: right;
+    /* right: 34px;
+    bottom: -185px; */
+    /* position: absolute!important; */
+}
+
+#youtube{
+	position: absolute;
+	right: 129px;
+	bottom: 234px;
+}
